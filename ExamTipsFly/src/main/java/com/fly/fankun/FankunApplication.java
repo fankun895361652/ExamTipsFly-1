@@ -26,7 +26,7 @@ public class FankunApplication {
     public String hello(@RequestParam String name){
         Person p = new Person();
         p.setName(name);
-        //数据库操作
+        //数据库操作 2019.10.12测试
         System.out.println("name入库 名字叫做："+name);
         return p.getName();
     }
