@@ -27,6 +27,7 @@ public class FankunApplication {
         Person p = new Person();
         p.setName(name);
         //数据库操作
+        //守护最好的霸霸
         System.out.println("name入库 名字叫做："+name);
         return p.getName();
     }
